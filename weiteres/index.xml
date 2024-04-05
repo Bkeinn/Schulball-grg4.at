@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Schulball-grg4</title>
-    <link>https://bkeinn.github.io/Schulball-grg4.at/</link>
-    <description>Recent content on Schulball-grg4</description>
+    <title>Weiteres on Schulball-grg4</title>
+    <link>https://bkeinn.github.io/Schulball-grg4.at/weiteres/</link>
+    <description>Recent content in Weiteres on Schulball-grg4</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Fri, 05 Apr 2024 16:13:42 +0200</lastBuildDate>
-    <atom:link href="https://bkeinn.github.io/Schulball-grg4.at/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bkeinn.github.io/Schulball-grg4.at/weiteres/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tickets_kaufen</title>
       <link>https://bkeinn.github.io/Schulball-grg4.at/weiteres/tickets_kaufen/</link>
@@ -30,25 +30,11 @@
       <description>Mit dem Kauf der Karte akzeptiert man und hält sich an die Hausregeln des Veranstaltungsortes „Sofiensäle“.&#xA;Der Schulball des Wiedner Gymnasiums und der Sir Karl Popper Schule ist für die Schüler:innen der Oberstufe und somit kann es zu Stichprobenkontrollen kommen, bitte nehmt Eure Edu-Card mit, um Euch ausweisen zu können. Der Eintritt wird Schüler:innen unter 14 Jahren verwehrt.&#xA;Grundsätzlich gilt das Wiener Jugendschutzgesetz, alle Regelungen hinsichtlich Alkoholkonsum (kein Alkohol unter 16 Jahren, kein harter Alkohol unter 18 Jahren, Rauchverbot) müssen eingehalten werden.</description>
     </item>
     <item>
-      <title>Behind the Scenes</title>
-      <link>https://bkeinn.github.io/Schulball-grg4.at/behind_the_scenes/</link>
-      <pubDate>Fri, 05 Apr 2024 16:11:36 +0200</pubDate>
-      <guid>https://bkeinn.github.io/Schulball-grg4.at/behind_the_scenes/</guid>
-      <description>Das Komitee Link zum Komitee [[./komitee.md]]&#xA;Bilder </description>
-    </item>
-    <item>
       <title>Das_Motto</title>
       <link>https://bkeinn.github.io/Schulball-grg4.at/weiteres/das_motto/</link>
       <pubDate>Fri, 05 Apr 2024 16:11:36 +0200</pubDate>
       <guid>https://bkeinn.github.io/Schulball-grg4.at/weiteres/das_motto/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Sponsoren</title>
-      <link>https://bkeinn.github.io/Schulball-grg4.at/sponsoren/</link>
-      <pubDate>Fri, 05 Apr 2024 16:11:36 +0200</pubDate>
-      <guid>https://bkeinn.github.io/Schulball-grg4.at/sponsoren/</guid>
-      <description>Liste von Sponsoren </description>
     </item>
   </channel>
 </rss>
