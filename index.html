@@ -202,27 +202,33 @@
 
 
     </header>
-    <form method="post" action="https://formspree.io/f/Kartenkauf">
-      <div class="row gtr-uniform">
-        <input type="hidden" name="subject" value="Kartenkauf" />
-        <div class="col-6 col-12-xsmall">
-          <input type="text" name="name" id="name" value="" placeholder="Name" required />
-        </div>
-        <div class="col-6 col-12-xsmall">
-          <input type="email" name="email" id="email" value="" placeholder="E-Mail" required />
-        </div>
-        <div class="col-12">
-          <textarea name="message" id="message" placeholder="Ihre Nachricht" rows="6" required></textarea>
-        </div>
-        <div class="col-12">
-          <ul class="actions">
-            <li><input type="submit" value="senden" class="primary" /></li>
-            <li><input type="reset" value="zurücksetzen" /></li>
-          </ul>
-        </div>
+    
+    
+
+  <form id="myForm" method="post" action="javascript:void(0);" onsubmit="submitForm()">
+    <div class="row gtr-uniform">
+      <div class="col-12">
+        <textarea name="body" id="body" placeholder="Ihre Nachricht" rows="6" required></textarea>
       </div>
-    </form>
-  </div>
+      <div class="col-12">
+        <ul class="actions">
+          <li><input type="submit" value="senden" class="primary" /></li>
+          <li><input type="reset" value="zurücksetzen" /></li>
+        </ul>
+      </div>
+    </div>
+  </form>
+
+  <script>
+    function submitForm() {
+      var bodyContent = document.getElementById("body").value;
+      var emailSubject = "Kartenkauf";
+      var emailAddress = "grg4schulballkomitee@gmail.com";
+      var mailtoLink = "mailto:" + encodeURIComponent(emailAddress) + "?subject=" + encodeURIComponent(emailSubject) + "&body=" + encodeURIComponent(bodyContent);
+      window.location.href = mailtoLink;
+    }
+  </script>
+    </div>
 </section>
 
 
@@ -263,7 +269,7 @@
 
 
 
-<script src="/js/bundle.min.faa671bc73167e3525fa420ce44546961a3c777b699ec8b967f9853c1f3aea6d2db0108e19b96b750b9ddb4f1d71229f5e8df71566afdaf01f3b429fd87476b8.js" integrity="sha512-&#43;qZxvHMWfjUl&#43;kIM5EVGlho8d3tpnsi5Z/mFPB866m0tsBCOGblrdQud208dcSKfXo33FWav2vAfO0Kf2HR2uA=="></script>
+<script src="/js/bundle.min.1b7ccefe3bf661165d2011a7ff20e4dd65bed82bda377592ad6a08296b2023597403868b7d3b4a0ff21537f0cbcb661d45a32bc484a0e78cedcea59a69d41d91.js" integrity="sha512-G3zO/jv2YRZdIBGn/yDk3WW&#43;2CvaN3WSrWoIKWsgI1l0A4aLfTtKD/IVN/DLy2YdRaMrxISg54ztzqWaadQdkQ=="></script>
 
 
 	</body>
