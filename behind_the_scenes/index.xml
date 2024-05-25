@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Behind the Scenes on Schulball-grg4</title>
-    <link>http://localhost:1313/behind_the_scenes/</link>
+    <link>http://schulball-grg4.at/behind_the_scenes/</link>
     <description>Recent content in Behind the Scenes on Schulball-grg4</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Fri, 05 Apr 2024 16:11:36 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/behind_the_scenes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://schulball-grg4.at/behind_the_scenes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Das Komitee</title>
-      <link>http://localhost:1313/behind_the_scenes/komitee/</link>
+      <link>http://schulball-grg4.at/behind_the_scenes/komitee/</link>
       <pubDate>Fri, 05 Apr 2024 16:11:36 +0200</pubDate>
-      <guid>http://localhost:1313/behind_the_scenes/komitee/</guid>
+      <guid>http://schulball-grg4.at/behind_the_scenes/komitee/</guid>
       <description>Kurz nach dem letztjährigen Ball haben wir uns zum ersten Mal getroffen, um mit der Planung des nächsten Balles zu beginnen. Seitdem laufen die Vorbereitungen auf Hochtouren - wir treffen uns wöchentlich, um einen für euch unvergesslichen Ball auf die Beine zu stellen!&#xA;Das Team besteht aus 7. und 8. Klässler:innen aus dem Wiedner Gymnasium und aus der Sir Karl Popper Schule!&#xA;Eden Bar, Wien Theresia Carnogursky (7C)&#xA;Amelie Kratky (7C)</description>
     </item>
   </channel>
