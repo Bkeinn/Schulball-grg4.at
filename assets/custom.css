@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+/* This is the title */
+.fancytitlestyling {
+  font-family: "Alex Brush", cursive !important;
+  font-size: 90px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  text-transform: none !important;
+  letter-spacing: -1px !important;
+  color: #83691b;
+}
+
+/* This is the banenr around the title */
+
+#banner h2:before, #banner h2:after {
+	content: url('http://localhost:1313/ranks.svg') !important;
+  background-repeat: no-repeat;
+  background-size: contain;  /* display: block; */
+	height: auto;
+	width: 100%;
+	transition: opacity 0.85s ease, transform 0.85s ease;
+	transition-delay: 0.25s;
+}
+
+#banner h2:before {
+	top: 0;
+ 	transform: translateY(-50%) ;
+ 	opacity: 0;
+}
+
+#banner h2:after {
+	bottom: 0;
+ 	transform: translateY(+50%);
+}
+
+#banner p {
+	color: #68510a;
+}
+
+#banner:after {
+	background: #463503 !important
+}

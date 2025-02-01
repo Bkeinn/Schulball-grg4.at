@@ -1,0 +1,87 @@
+baseURL = "/"
+title = "Schulball grg4"
+languageCode = "de-au"
+defaultContentLanguage = "de"
+paginate = "7"
+theme = "spectral"
+#googleAnalytics = "G-XXXXXXXXXX"
+
+[params]
+fancyTitle = "Secret Guarden" # title for frontpage, may include image
+copyright = "Wiedner gymnasium"
+description = 'Schulball des Wiednergymnasiums und Sir Karl Popper Schule'
+startbuttonText = "Termin"
+startbuttonLink = "#termin"
+body_is_markdown = true
+custom_css = "custom.css"
+#custom_sass = "bar.scss"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[markup.goldmark.renderer]
+        unsafe = true # NOT-RECOMMENDED! FOR DEMO PURPOSE ONLY![[params.menu.main]]
+
+url = '/'
+title = "Start"
+
+[[params.menu.main]]
+url = '/sponsoren/'
+title = "Sponsoren"
+
+[[params.menu.main]]
+url = '/ballabend/'
+title = "Weiteres zum Ballabend"
+
+[[params.menu.main]]
+url = '/archive/'
+title = "archive"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/pic01.jpg"
+img_alt = "blurry background: white/grey"
+title = 'Wann? <br /> <h3>~DATUM~</h3>'
+body = 'Einlass: <br />Eroeffnung: <br />Ende: <br /><a href="">Link zum Programm</a>'
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Wo'
+body = ''
+
+[[params.two.section]]
+img = "img/pic03.jpg"
+title = 'Tickets'
+body = 'Preise <br />Schueler*innen: <br />Erwachsene: <br /><a href="">Kaufen</a>'
+
+[params.cta]
+enable = true
+title = "Regeln"
+body = "Mit dem Kauf Stimmen Sie den von uns aufgestellten Regeln zu."
+
+[[params.cta.link]]
+href = "#"
+text = "Ballregeln"
+special = true
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message."
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "nospam@example.com"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+instagram = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 0
+languageName = "Deutsch"
