@@ -22,7 +22,7 @@
 
 
 
-<link rel="stylesheet" href="/custom.min.0e62c1c40b8375a7ba8b8a09ba95871f4b0c49a0c966e59055fa87052b94c9aff5c7b47579e2bad5a5fb5ef39dbcf7ed8812c0e4f475ca76f5acdaddb236aad7.css" integrity="sha512-DmLBxAuDdae6i4oJupWHH0sMSaDJZuWQVfqHBSuUya/1x7R1eeK61aX7XvOdvPftiBLA5PR1ynb1rNrdsjaq1w==">
+<link rel="stylesheet" href="/custom.min.26932efd58389ff9774050be08c7e3531ce100a4ac45b386670b0b6aac1042d9cc80467e17ed63be3ae7ba8b6b6925cf2b16f2e14ae561ce2bda73071040dbaf.css" integrity="sha512-JpMu/Vg4n/l3QFC&#43;CMfjUxzhAKSsRbOGZwsLaqwQQtnMgEZ&#43;F&#43;1jvjrnuotraSXPKxby4UrlYc4r2nMHEEDbrw==">
 
 
 
@@ -101,15 +101,15 @@
 	<section class="spotlight">
     
     <div class="image">
-      <img src="/img/pic01.jpg" alt="blurry background: white/grey" />
+      <img src="/Placeholder.jpg" alt="blurry background: white/grey" />
     </div>
     
     <div class="content">
-      <h2>Wann? <br /> <h3>~DATUM~</h3></h2>
+      <h2>Wann: <br /> <h3>24. Mai 2025</h3></h2>
       
   
   
-    <p>Einlass: <br />Eroeffnung: <br />Ende: <br /><a href="">Link zum Programm</a></p>
+    <p>Einlass: 19:30<br />Eroeffnung: 20:30 <br />Ende: 3:00<br /><a href="">Link zum Programm</a></p>
   
 
 
@@ -119,15 +119,15 @@
 	<section class="spotlight">
     
     <div class="image">
-      <img src="/img/pic02.jpg"  />
+      <img src="/Placeholder.jpg"  />
     </div>
     
     <div class="content">
-      <h2>Wo</h2>
+      <h2>Wo:</h2>
       
   
   
-    <p></p>
+    <p><b class="content">Arcotel Wimberger</b> <br /><b class="content">Neubauguertel 34-36, 1070 Wien</b><br /><h3>Anreise:</h3><b class="content">Westbahnhof<br/></b><b class="content">U6/U3/S-Bahn</b><br/><br/><b class="content">Urban-Loritz-Platz</b><br/><b class="content">18/6 Strassenbahn</b><br/><b class="content">N49/N8 Bus</b></p>
   
 
 
@@ -137,7 +137,7 @@
 	<section class="spotlight">
     
     <div class="image">
-      <img src="/img/pic03.jpg"  />
+      <img src="/Eintrittskarte.svg"  />
     </div>
     
     <div class="content">
@@ -145,7 +145,7 @@
       
   
   
-    <p>Preise <br />Schueler*innen: <br />Erwachsene: <br /><a href="">Kaufen</a></p>
+    <p><h3>Preise:</h3> <br />Schueler*innen: 35 EURO<br />Erwachsene: 50 EURO<br />Tische: 10 Plaetze: 150 EURO<br /><a href="">Kaufen</a></p>
   
 
 
@@ -196,37 +196,33 @@
 <section id="contact" class="wrapper style5">
   <div class="inner">
     <header class="major">
-      <h2>Contact</h2>
-      
-  
-  
-    <p>Leave us a message.</p>
-  
-
-
+      <h2>Tickets kaufen</h2>
     </header>
-    <form method="post" action="https://formspree.io/f/example_invalid">
-      <div class="row gtr-uniform">
-        <input type="hidden" name="subject" value="New Submission!" />
-        <div class="col-6 col-12-xsmall">
-          <input type="text" name="name" id="name" value="" placeholder="Name" required />
-        </div>
-        <div class="col-6 col-12-xsmall">
-          <input type="email" name="email" id="email" value="" placeholder="E-Mail" required />
-        </div>
-        <div class="col-12">
-          <textarea name="message" id="message" placeholder="Ihre Nachricht" rows="6" required></textarea>
-        </div>
-        <div class="col-12">
-          <ul class="actions">
-            <li><input type="submit" value="senden" class="primary" /></li>
-            <li><input type="reset" value="zurücksetzen" /></li>
-          </ul>
-        </div>
-      </div>
-    </form>
+<div class="row gtr-uniform">
+  <div class="col-12">
+    <textarea id="message" placeholder="Ihre Nachricht" rows="6" required></textarea>
   </div>
+  <div class="col-12">
+    <ul class="actions">
+      <li>
+        <a id="mailto-link" class="button primary">senden</a>
+      </li>
+      <li>
+        <input type="reset" class="resetbutton" value="zurücksetzen" />
+      </li>
+    </ul>
+  </div>
+</div>
+
+</div>
 </section>
+<script>
+  document.getElementById('mailto-link').addEventListener('click', function() {
+    var subject = encodeURIComponent("Karten Kaufen");
+    var message = encodeURIComponent(document.getElementById('message').value);
+    window.location.href = "mailto:?subject=" + subject + "&body=" + message;
+  });
+</script>
 
 
 

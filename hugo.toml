@@ -2,7 +2,7 @@ baseURL = "/"
 title = "Schulball grg4"
 languageCode = "de-au"
 defaultContentLanguage = "de"
-paginate = "7"
+pagination.pagerSize = "7"
 theme = "spectral"
 #googleAnalytics = "G-XXXXXXXXXX"
 
@@ -39,20 +39,20 @@ title = "archive"
 enable = true
 
 [[params.two.section]]
-img = "img/pic01.jpg"
+img = "Placeholder.jpg"
 img_alt = "blurry background: white/grey"
-title = 'Wann? <br /> <h3>~DATUM~</h3>'
-body = 'Einlass: <br />Eroeffnung: <br />Ende: <br /><a href="">Link zum Programm</a>'
+title = 'Wann: <br /> <h3>24. Mai 2025</h3>'
+body = 'Einlass: 19:30<br />Eroeffnung: 20:30 <br />Ende: 3:00<br /><a href="">Link zum Programm</a>'
 
 [[params.two.section]]
-img = "img/pic02.jpg"
-title = 'Wo'
-body = ''
+img = "Placeholder.jpg"
+title = 'Wo:'
+body = '<b class="content">Arcotel Wimberger</b> <br /><b class="content">Neubauguertel 34-36, 1070 Wien</b><br /><h3>Anreise:</h3><b class="content">Westbahnhof<br/></b><b class="content">U6/U3/S-Bahn</b><br/><br/><b class="content">Urban-Loritz-Platz</b><br/><b class="content">18/6 Strassenbahn</b><br/><b class="content">N49/N8 Bus</b>'
 
 [[params.two.section]]
-img = "img/pic03.jpg"
+img = "Eintrittskarte.svg"
 title = 'Tickets'
-body = 'Preise <br />Schueler*innen: <br />Erwachsene: <br /><a href="">Kaufen</a>'
+body = '<h3>Preise:</h3> <br />Schueler*innen: 35 EURO<br />Erwachsene: 50 EURO<br />Tische: 10 Plaetze: 150 EURO<br /><a href="">Kaufen</a>'
 
 [params.cta]
 enable = true
@@ -66,11 +66,11 @@ special = true
 
 [params.contact]
 enable = true
-title = "Contact"
+title = "Tickets kaufen"
 body = "Leave us a message."
 address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
 email = "nospam@example.com"
-subject = "New Submission!"
+subject = "Karten Kaufen"
 formspree_form_id = "example_invalid"
 
 [params.social]

@@ -8,13 +8,43 @@
   font-style: normal !important;
   text-transform: none !important;
   letter-spacing: -1px !important;
-  color: #83691b;
+}
+
+/* These are all the headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #83691b !important;
+}
+
+/* Buttons(base) */
+button.primary,
+.button.primary {
+	background-color: #ac8a23;
+}
+/* Button over */
+button.primary:hover,
+.button.primary:hover {
+	background-color: #bba45e !important;
+}
+/* Button pressed */
+button.primary:active,
+.button.primary:active {
+	background-color: #83691b !important;
+}
+
+
+/* Hamburger Menu */
+#menu {
+	background-image: url('sparkel1.svg') !important;
+
+	background: #5a7b4f;
+	color: #f1d2bc;
+	border-left: 5px solid #83691b;
 }
 
 /* This is the banenr around the title */
 
 #banner h2:before, #banner h2:after {
-	content: url('http://localhost:1313/ranks.svg') !important;
+	content: url('ranks.svg') !important;
   background-repeat: no-repeat;
   background-size: contain;  /* display: block; */
 	height: auto;
@@ -34,10 +64,83 @@
  	transform: translateY(+50%);
 }
 
+/* Text underneath the banner */
 #banner p {
 	color: #68510a;
 }
 
+/* The fade in color */
 #banner:after {
 	background: #463503 !important
+}
+
+/* The arrow telling you to scroll down */
+#banner .more {
+	color: #83691b;
+}
+#banner .more:after {
+	filter: invert(48%);
+}
+
+/* The Text when the banner is done animating */
+body {
+	background-image: url('crown.svg') !important;
+  background-repeat: no-repeat !important;
+  background-size: contain; display: block;
+	height: auto;
+	width: 100%;
+	background-color: #043412;
+}
+
+/* The header that appears */
+#header {
+	background-image: url('singlerank.svg') !important;
+	width: 100%;
+
+	background-color: #043412;
+  opacity: 1 !important;
+	transition: background-color 0.1s ease-in-out, opacity 0.1s ease-in-out !important;
+}
+
+/* When the header becomes visible, fade in the background image */
+#header.alt {
+	background-image: none !important; /* Hide background image */
+  opacity: 0;
+}
+/* The Menu text in the header */
+#header nav > ul > li > a {
+	color: #f1d2bc;
+}
+
+/* The first image place */
+.wrapper.style2 {
+	background-image: url('sparkel1.svg') !important;
+	background-color: #0d1f13;
+}
+
+/* Footer */
+#footer {
+	background-color: #0d1f13 !important;
+}
+
+/* The normal text content */
+.content {
+	color: #f1d2bc !important;
+}
+
+/* The Contanct Forum(that is no forum any more) */
+.wrapper.style5 {
+	background-color: #093817;
+	color: #83691b;
+}
+
+/* The back button on the contact forum */
+.resetbutton {
+	color: #83691b !important;
+}
+
+
+select:focus,
+textarea:focus {
+	box-shadow: 0 0 0 2px #043412;
 }
