@@ -1,4 +1,5 @@
-baseURL = "/"
+baseURL = "https://schulball-grg4.at"
+publishDir = "docs"
 title = "Schulball grg4"
 languageCode = "de-au"
 defaultContentLanguage = "de"
