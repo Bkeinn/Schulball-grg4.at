@@ -8,7 +8,7 @@ theme = "spectral"
 #googleAnalytics = "G-XXXXXXXXXX"
 
 [params]
-fancyTitle = "Secret Guarden" # title for frontpage, may include image
+fancyTitle = "Secret Garden" # title for frontpage, may include image
 copyright = "Wiedner gymnasium"
 description = 'Schulball des Wiednergymnasiums und Sir Karl Popper Schule'
 startbuttonText = "Termin"
