@@ -3,7 +3,7 @@
 /* This is the title */
 .fancytitlestyling {
   font-family: "Alex Brush", cursive !important;
-  font-size: 90px !important;
+  font-size: 5vw !important; /* Adjusts the font size based on the viewport width */
   font-weight: 400 !important;
   font-style: normal !important;
   text-transform: none !important;
@@ -44,11 +44,13 @@ button.primary:active,
 /* This is the banenr around the title */
 
 #banner h2:before, #banner h2:after {
-	content: url('ranks.svg') !important;
+	content: ".";
+	background-image: url('ranks.svg') !important;
   background-repeat: no-repeat;
   background-size: contain;  /* display: block; */
+  display: inline-block;
 	height: auto;
-	width: 100%;
+	max-width: 100%; !important;
 	transition: opacity 0.85s ease, transform 0.85s ease;
 	transition-delay: 0.25s;
 }
