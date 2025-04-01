@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://schulball-grg4.at/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://schulball-grg4.at/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://schulball-grg4.at/categories/"
-                />
-  </url><url>
     <loc>https://schulball-grg4.at/</loc>
     <xhtml:link
                 rel="alternate"
@@ -24,6 +12,20 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://schulball-grg4.at/"
+                />
+  </url><url>
+    <loc>https://schulball-grg4.at/ballabend/</loc>
+  </url><url>
+    <loc>https://schulball-grg4.at/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://schulball-grg4.at/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://schulball-grg4.at/categories/"
                 />
   </url><url>
     <loc>https://schulball-grg4.at/tags/</loc>
