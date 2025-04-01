@@ -61,7 +61,7 @@ title = "Regeln"
 body = "Mit dem Kauf Stimmen Sie den von uns aufgestellten Regeln zu."
 
 [[params.cta.link]]
-href = "#"
+href = "/ballabend/"
 text = "Ballregeln"
 special = true
 
