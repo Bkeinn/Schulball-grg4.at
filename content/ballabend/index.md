@@ -1,3 +1,21 @@
+# Programm
+
+- 19:30 \
+           - Einlass
+- 20:30 Eröffnung \
+           - Reden
+- 22:00 \
+           - Disco beginn
+- 23:45 \
+           - Tombolaverlosung
+- 00:00 \
+           - Mitternachtseinlagen \
+           - Mitternachtsquadrille\
+           - Abholen der Tombolapreise
+- 03:00 \
+           - *Ende*
+
+
 # Die Ballregeln
 
 Mit dem Kauf der Karte akzeptiert man und hält sich an die Hausregeln des Veranstaltungsortes „ARCOTEL“.
@@ -9,3 +27,4 @@ Es gilt das Wiener Jugendschutzgesetz, alle Regelungen hinsichtlich Alkoholkonsu
 Die Rückererstattung der Karten erfolgt nur bei Absage des Balles durch den Veranstaltungsort „ARCOTEL“.
 
 Wir – das Schulballkomitee – wollen einen schönen Schulball mit Euch feiern und das Schuljahr feiernd beschließen.
+

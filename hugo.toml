@@ -24,17 +24,21 @@ custom_css = "custom.css"
 url = '/'
 title = "Start"
 
-[[params.menu.main]]
-url = '/sponsoren/'
-title = "Sponsoren"
+# [[params.menu.main]]
+# url = '/sponsoren/'
+# title = "Sponsoren"
 
 [[params.menu.main]]
 url = '/ballabend/'
 title = "Weiteres zum Ballabend"
 
 [[params.menu.main]]
-url = '/archive/'
-title = "archive"
+url = '/menue/'
+title = "Das Menü"
+
+# [[params.menu.main]]
+# url = '/archive/'
+# title = "archive"
 
 [params.two]
 enable = true
