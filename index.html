@@ -1,266 +1,232 @@
-<!DOCTYPE HTML>
-
+<!DOCTYPE html>
 <html lang="de">
-	<head>
-	  <title></title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="referrer" content="origin">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GRG4 Schulball 2026</title>
 
-	
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Cinzel:wght@400;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
 
-    <meta name="description" content="Schulball des Wiednergymnasiums und Sir Karl Popper Schule">
-    
-    <link rel="alternate" type="application/rss+xml" href="https://schulball-grg4.at/index.xml" title="Schulball grg4">
-    <meta name="generator" content="Hugo 0.160.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f5f0e6;
+      color: #1f3d2b;
+    }
 
-    
-<link rel="stylesheet" href="/css/main.min.2ff418eb0fdb2a3ed028ed0b08ce7aa146ecb1c41c432c44046a6e48f81c88ad5d868c5ccb836e40b159c8114dbf562ceb4351967d695b6eabb28e93cadd6a9e.css" integrity="sha512-L/QY6w/bKj7QKO0LCM56oUbsscQcQyxEBGpuSPgciK1dhoxcy4NuQLFZyBFNv1Ys60NRln1pW26rso6Tyt1qng==">
+    header {
+      text-align: center;
+      padding: 80px 20px 40px;
+      border-bottom: 3px solid #c9a646;
+      background: linear-gradient(to bottom, #f8f3e8, #efe6d3);
+      animation: fadeIn 1.5s ease;
+    }
 
+    header h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 3rem;
+      margin: 0;
+      letter-spacing: 2px;
+    }
 
-<noscript><link rel="stylesheet" href="/css/noscript.min.e6f1ba19697eecfddfbf83ff7181b98181998f163d7005f6ae923451556bf85bef357f43dffe1522b92c1efab7fb38441f479e39b7a03e4313a8ef12b0b01f65.css" integrity="sha512-5vG6GWl&#43;7P3fv4P/cYG5gYGZjxY9cAX2rpI0UVVr&#43;FvvNX9D3/4VIrksHvq3&#43;zhEH0eeObegPkMTqO8SsLAfZQ=="></noscript>
+    .date {
+      margin-top: 15px;
+      font-size: 1.5rem;
+      color: #c9a646;
+      font-weight: 600;
+    }
 
+    header p {
+      margin-top: 10px;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+    }
 
+    main {
+      max-width: 750px;
+      margin: auto;
+      padding: 30px 20px;
+      line-height: 1.9;
+      animation: fadeUp 1.2s ease;
+    }
 
-<link rel="stylesheet" href="/custom.min.f8a588ee4ec287c2f0237fda3149367450b9924944b307e8bf675cf30eacc77696a25f39782b40ae5fdb10021e9f59ad0d696d1bfe60890f089f7075577bff54.css" integrity="sha512-&#43;KWI7k7Ch8LwI3/aMUk2dFC5kklEswfov2dc8w6sx3aWol85eCtArl/bEAIen1mtDWltG/5giQ8In3B1V3v/VA==">
+    h2 {
+      font-family: 'Cinzel', serif;
+      margin-top: 60px;
+      color: #1f3d2b;
+      position: relative;
+    }
 
+    h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 2px;
+      background: #c9a646;
+      margin-top: 8px;
+    }
 
+    a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
 
+    a:hover {
+      opacity: 0.6;
+    }
 
-    
-    <link rel="alternate" hreflang="en" href="https://schulball-grg4.at/en/">
-    
-    
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Schulball grg4">
-  <meta name="twitter:description" content="Hello">
+    ul {
+      padding-left: 18px;
+    }
 
-    <meta property="og:url" content="https://schulball-grg4.at/">
-  <meta property="og:site_name" content="Schulball grg4">
-  <meta property="og:title" content="Schulball grg4">
-  <meta property="og:description" content="Hello">
-  <meta property="og:locale" content="de_au">
-  <meta property="og:type" content="website">
+    .times {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
 
-    
-	</head>
-	<body class="landing is-preload">
+    .time {
+      padding: 6px 10px;
+      border-right: 1px solid rgba(0,0,0,0.3);
+      transition: 0.3s;
+    }
 
-		
-			<div id="page-wrapper">
+    .time:last-child {
+      border-right: none;
+    }
 
-				
-          <header id="header" class="alt">
-            <h1><a href="https://schulball-grg4.at/">Schulball grg4</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-                  <a href="#menu" class="menuToggle" aria-label='Menü'><span>Menü</span></a>
-									<div id="menu">
-										<ul>
-				              
-				              <li><a href="/ballabend/">Weiteres zum Ballabend</a></li>
-				              
-				              <li><a href="/menue/">Das Menü</a></li>
-				              
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
+    .time:hover {
+      opacity: 0.6;
+    }
 
+    .qr {
+      text-align: center;
+      margin-top: 30px;
+      font-style: italic;
+      color: #555;
+    }
 
-<section id="banner">
-	<div class="inner">
-    <h2 class="fancytitlestyling">Eine Nacht auf dem Olymp</h2>
-    <p>Schulball des Wiednergymnasiums und Sir Karl Popper Schule</p>
-    
-		<ul class="actions special">
-      <li><a href="#termin" class="button primary">Termin</a></li>
-		</ul>
-    
-	</div>
-  <a href="#one" class="more scrolly">Mehr Erfahren</a>
-</section>
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 3px solid #c9a646;
+      font-size: 0.9em;
+    }
 
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
 
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
 
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
 
+      .date {
+        font-size: 1.2rem;
+      }
 
+      main {
+        padding: 15px;
+      }
+    }
+    .motto {
+  margin-top: 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
 
+.olymp {
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
 
+.submotto {
+  font-size: 1rem;
+  opacity: 0.8;
+  display: inline-block;
+  margin-top: 6px;
+}
 
+  </style>
+</head>
 
+<body>
 
+<header>
+  <h1>Schulball 2026</h1>
+  <div class="date">18. April 2026</div>
+  <p class="motto">
+  Eine Nacht auf dem <br> <span class="olymp">Olymp</span></p>
+  <p style="margin-top:15px; font-size:0.9rem;">Sir Karl Popper Schule & Wiedner Gymnasium</p>
+</header>
 
-<section id="two" class="wrapper alt style2">
-  
-	<section class="spotlight">
-    
-    <div class="image">
-      <img src="/Placeholder.jpg" alt="blurry background: white/grey" />
-    </div>
-    
-    <div class="content">
-      <h2>Wann: <br /> <h3>18. April 2026</h3></h2>
-      
-  
-  
-    <p><ul style="list-style-type: none; padding: 0; margin: 0;"><li>Einlass: 19:30<li/><li>Eröffnung: 20:30 <li/><li>Ende: 2:00<li/><li><a href="">Link zum Programm</a><li/><ul/></p>
-  
+<main>
 
+  <h2>Wo</h2>
+  <p>
+    <a href="https://weitsichtcobenzl.at/" target="_blank">Weitblick COBENZL</a><br>
+    <a href="https://www.google.com/maps/search/?api=1&query=Am+Cobenzl+9,+1190+Wien" target="_blank">
+      Am Cobenzl 9, 1190 Wien
+    </a>
+  </p>
 
-		</div>
-	</section>
-  
-	<section class="spotlight">
-    
-    <div class="image">
-      <img src="/Placeholder.jpg"  />
-    </div>
-    
-    <div class="content">
-      <h2>Wo:</h2>
-      
-  
-  
-    <p><ul style="list-style-type: none; padding: 0; margin: 0;"><li style="margin: 0;"><b class="content">Weitblick COBENZL</b></li><li style="margin: 0;"><b class="content">Am Cobenzl 9, 1190 Wien</b></li><li style="margin: 0;"></li><h3>Anfahrt:</h3><li style="margin: 0;"><b class="content">Heiligenstadt</b></li><li style="margin: 0;"><b class="content">U4/S-BAHN & 38A</b></li><li style="margin: 0;"></li><h3>Rückfahrt:</h3><li style="margin: 0;"><b class="content">Ab 23 Uhr Shuttle-Bus nach Heiligenstadt</b></li><li style="margin: 0;"><b class="content">Abfahrtszeiten Cobenzl:</b></li><li style="margin: 0;"><b class="content">23:00 / 23:45 / 00:45 / 01:30 / 02:15 / 03:00</b></li><li style="margin: 0;"></li></ul></p>
-  
+  <h2>Anfahrt</h2>
+  <p>Heiligenstadt<br>U4 / S-Bahn & 38A</p>
 
-
-		</div>
-	</section>
-  
-	<section class="spotlight">
-    
-    <div class="image">
-      <img src="/Eintrittskarte.svg"  />
-    </div>
-    
-    <div class="content">
-      <h2>Tickets</h2>
-      
-  
-  
-    <p><h3>Preise:</h3><ul style="list-style-type: none; padding: 0; margin: 0;"><li>Schüler*innen: 35 EURO <li/><li>Erwachsene: 50 EURO <li/><li>Tische: 10 Plätze: 150 EURO <li/><li><a href="">Kaufen</a><li/><ul/></p>
-  
-
-
-		</div>
-	</section>
-  
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="cta" class="wrapper style4">
-	<div class="inner">
-		<header>
-      <h2>Regeln</h2>
-      
-  
-  
-    <p>Mit dem Kauf Stimmen Sie den von uns aufgestellten Regeln zu.</p>
-  
-
-
-		</header>
-		<ul class="actions stacked">
-      
-      <li><a href="/ballabend/" class="button fit primary">Ballregeln</a></li>
-      
-		</ul>
-	</div>
-</section>
-
-
-
-
-
-
-
-
-<section id="contact" class="wrapper style5">
-  <div class="inner">
-    <header class="major">
-      <h2>Tickets kaufen</h2>
-    </header>
-<div class="row gtr-uniform">
-  <div class="col-12">
-    <textarea id="message" placeholder="Ihre Nachricht" rows="6" required></textarea>
+  <h2>Rückfahrt</h2>
+  <p>Shuttle-Bus nach Heiligenstadt</p>
+  <div class="times">
+    <span class="time">23:00</span>
+    <span class="time">23:45</span>
+    <span class="time">00:45</span>
+    <span class="time">01:30</span>
+    <span class="time">02:15</span>
+    <span class="time">03:00</span>
   </div>
-  <div class="col-12">
-    <ul class="actions">
-      <li>
-        <a id="mailto-link" class="button primary">senden</a>
-      </li>
-      <li>
-        <input type="reset" class="resetbutton" value="zurücksetzen" />
-      </li>
-    </ul>
+
+  <h2>Programm</h2>
+  <ul>
+    <li>19:30 – Einlass</li>
+    <li>20:30 – Eröffnung</li>
+    <li>23:15 – Tombolaverlosung</li>
+    <li>23:30 – Mitternachtseinlage & Quadrille</li>
+    <li>02:00 – Ballende</li>
+  </ul>
+
+  <h2>Ballregeln</h2>
+  <p>Mit dem Kauf der Karte akzeptiert man die Hausregeln des Veranstaltungsortes „<a href="https://weitsichtcobenzl.at/" target="_blank">Weitblick COBENZL</a>“.</p>
+
+  <p>Der Schulball ist für Oberstufenschüler:innen. Es kann zu Einlasskontrollen kommen. Kein Einlass unter 14 Jahren.</p>
+
+  <p>Es gilt das Wiener Jugendschutzgesetz (kein Alkohol unter 16, kein harter Alkohol unter 18, Rauchverbot). Ausweis mitnehmen.</p>
+
+  <p>Rückerstattung nur bei Absage durch den Veranstalter.</p>
+
+  <p>Wir freuen uns auf eine unvergessliche Nacht!</p>
+
+  <h2>Fotos</h2>
+  <div class="qr">
+    <p>Der QR-Code für die Fotos wird nach dem Ball hier verfügbar sein.</p>
   </div>
-</div>
 
-</div>
-</section>
-<script>
-  document.getElementById('mailto-link').addEventListener('click', function() {
-    var subject = encodeURIComponent("Karten Kaufen");
-    var message = encodeURIComponent(document.getElementById('message').value);
-    window.location.href = "mailto:?subject=" + subject + "&body=" + message;
-  });
-</script>
+</main>
 
+<footer>
+  © Schulball der Sir Karl Popper Schule & des Wiedner Gymnasiums
+</footer>
 
-
-
-				
-					<footer id="footer">
-						<ul class="icons">
-              
-              
-              
-              
-              
-              
-              
-              
-              <li><a href="mailto:nospam@example.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-              
-              
-
-						</ul>
-						<ul class="copyright">
-              <li>&copy; 2026 Wiedner Gymnasium</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-
-			</div>
-
-      
-
-
-
-
-
-
-
-
-
-<script src="/js/bundle.min.22923d036c38e4ca62123121efbdf0bb0ee6f6af675f09b07c1282ee6c9ffa69428aac09dbdf78a7ee8d617bb86a66d97a3d1eb4576dd1c05fda0ebef5e87cc2.js" integrity="sha512-IpI9A2w45MpiEjEh773wuw7m9q9nXwmwfBKC7myf&#43;mlCiqwJ2994p&#43;6NYXu4ambZej0etFdt0cBf2g6&#43;9eh8wg=="></script>
-
-
-	</body>
+</body>
 </html>
-
