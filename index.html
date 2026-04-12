@@ -117,6 +117,47 @@
       font-size: 0.9em;
     }
 
+    .karten-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin-top: 60px;
+    }
+
+    .karten-left {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-self: flex-start;
+    }
+
+    .karten-left h2 {
+      margin-top: 0;
+      margin-bottom: 12px;
+    }
+
+    .karten-right {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      flex: 0 0 340px;
+      max-width: 340px;
+      align-self: flex-start;
+    }
+
+    .preise {
+      margin-top: 0;
+    }
+
+    .karte-bild {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(-15px); }
       to { opacity: 1; transform: translateY(0); }
@@ -138,6 +179,21 @@
 
       main {
         padding: 15px;
+      }
+
+      .karten-container {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .karten-right {
+        width: 100%;
+        align-items: center;
+      }
+
+      .karte-bild {
+        max-width: 100%;
+        height: auto;
       }
     }
     .motto {
@@ -217,6 +273,21 @@
   <p>Rückerstattung nur bei Absage durch den Veranstalter.</p>
 
   <p>Wir freuen uns auf eine unvergessliche Nacht!</p>
+  <div class="karten-container">
+    <div class="karten-left">
+      <h2>Karten</h2>
+      <div class="preise">
+        <p>Eintritt nur mit gültiger Karte möglich.</p>
+        <p>Schüler*innen: 35 EURO</p>
+        <p>Erwachsene: 50 EURO</p>
+        <p>Tische: 10 Plätze: 150 EURO</p>
+      </div>
+    </div>
+    <div class="karten-right">
+      <img src="media/karte1.jpeg" alt="Bild der Karte 1" class="karte-bild">
+      <img src="media/karte2.jpeg" alt="Bild der Karte 2" class="karte-bild">
+    </div>
+  </div>
 
   <h2>Fotos</h2>
   <div class="qr">
