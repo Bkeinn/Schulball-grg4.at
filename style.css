@@ -124,8 +124,12 @@ body {
     footer {
       text-align: center;
       padding: 40px 20px;
-      border-top: 3px solid #c9a646;
+      margin-top: 50px;
       font-size: 0.9em;
+      background: 
+        url("media/bottomstripes.svg")repeat-x top;
+
+    background-size: auto 17px;
     }
 
     .social-icon {
